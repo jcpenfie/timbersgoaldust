@@ -7,7 +7,10 @@
     <title>Timbers Goal Dust</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <style>
-
+        .video-placeholder {
+            cursor: pointer;
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -32,32 +35,41 @@
             equipos = await buscarListaDeEquipos();
             goles = await buscarListaDeGoles();
             jugadores = await buscarListaDeJugadores();
-            // console.log(equipos); // You can remove this line after verifying the data
-            // console.log(goles); // You can remove this line after verifying the data
-            // console.log(jugadores); // You can remove this line after verifying the data
-            // for each goal, console.log the goal scorer, the minute, and the teams
 
             goles.forEach(gol => {
-                matchesContainer = document.getElementById('matchesContainer');
-                const goalDiv = document.createElement('a');
-                goalDiv.href = `https://www.youtube.com/watch?v=${gol.video}`;
+                const matchesContainer = document.getElementById('matchesContainer');
+                const goalDiv = document.createElement('div');
+                goalDiv.classList.add('matchup');
                 goalDiv.innerHTML = `
-                        <div class="equipos">
+                    <div class="equipos">
                         <img src="imagenes/logos/POR.svg" alt="Portland Timbers">
                         <span class="vsText">vs</span>
                         <img src="${getTeamLogo(equipos, gol.AgainstTeam)}" alt="${gol.AgainstTeam}">
-                        </div>
-                        <iframe width="100%" src="https://www.youtube.com/embed/${gol.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h2>${gol.goalDate}</h2>
-                        <p class="goalScorerAndMinute">${gol.GoalScorer} ${gol.minute}</p>
+                    </div>
+                    <div class="video-placeholder" data-video-id="${gol.video}">
                         <p class="viewGoalText">Click to view goal</p>
-                    `;
-                goalDiv.classList.add('matchup');
+                        </div>
+                    <h2>${gol.goalDate}</h2>
+                    <p class="goalScorerAndMinute">${gol.GoalScorer} ${gol.minute}</p>
+                `;
                 matchesContainer.appendChild(goalDiv);
             });
+
+            document.querySelectorAll('.matchup').forEach(matchupContainer => {
+                matchupContainer.addEventListener('click', function () {
+                    const iframe = document.createElement('iframe');
+                    iframe.width = '100%';
+                    iframe.src = `https://www.youtube.com/embed/${this.dataset.videoId}`;
+                    iframe.title = 'YouTube video player';
+                    iframe.frameBorder = '0';
+                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+                    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+                    iframe.allowFullscreen = true;
+                    iframe.classList.add("video-iframe");
+                    this.querySelector(".video-placeholder").replaceWith(iframe);
+                });
+            });
         });
-
-
 
         function filterInfo() {
             const filterValue = document.querySelector('input[name="filterGoals"]').value.toLowerCase();
