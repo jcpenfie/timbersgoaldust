@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timbers Goal Dust</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="search">
+        <h1>Timbers Goal Dust</h1>
+        <form>
+            <input class="filterGoals" type="text" name="filterGoals"
+                placeholder="Enter a players name, a team or score minute." oninput="filterInfo()" autofocus>
+        </form>
+    </div>
+    <div class="matchesContainer" id="matchesContainer">
+
+    </div>
+    <script src="./js/logica.js"></script>
+    <script>
+        let equipos = [];
+        let goles = [];
+        let jugadores = [];
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            equipos = await buscarListaDeEquipos();
+            goles = await buscarListaDeGoles();
+            jugadores = await buscarListaDeJugadores();
+            // console.log(equipos); // You can remove this line after verifying the data
+            // console.log(goles); // You can remove this line after verifying the data
+            // console.log(jugadores); // You can remove this line after verifying the data
+            // for each goal, console.log the goal scorer, the minute, and the teams
+
+            goles.forEach(gol => {
+                matchesContainer = document.getElementById('matchesContainer');
+                const goalDiv = document.createElement('a');
+                goalDiv.href = `https://www.youtube.com/watch?v=${gol.video}`;
+                goalDiv.innerHTML = `
+                        <div class="equipos">
+                        <img src="imagenes/logos/POR.svg" alt="Portland Timbers">
+                        <span class="vsText">vs</span>
+                        <img src="${getTeamLogo(equipos, gol.AgainstTeam)}" alt="${gol.AgainstTeam}">
+                        </div>
+                        <iframe width="100%" src="https://www.youtube.com/embed/${gol.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h2>${gol.goalDate}</h2>
+                        <p class="goalScorerAndMinute">${gol.GoalScorer} ${gol.minute}</p>
+                        <p class="viewGoalText">Click to view goal</p>
+                    `;
+                goalDiv.classList.add('matchup');
+                matchesContainer.appendChild(goalDiv);
+            });
+        });
+
+
+
+        function filterInfo() {
+            const filterValue = document.querySelector('input[name="filterGoals"]').value.toLowerCase();
+            const matchups = document.querySelectorAll('.matchup');
+
+            matchups.forEach(matchup => {
+                const goalScorer = matchup.querySelector('.goalScorerAndMinute').textContent.toLowerCase();
+                const teams = Array.from(matchup.querySelectorAll('.equipos img')).map(img => img.alt.toLowerCase()).join(' ');
+                const goalDate = matchup.querySelector('h2').textContent.toLowerCase();
+                if (goalScorer.includes(filterValue) || teams.includes(filterValue) || goalDate.includes(filterValue)) {
+                    matchup.style.display = 'flex';
+                } else {
+                    matchup.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

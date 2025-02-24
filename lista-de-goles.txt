@@ -1,0 +1,74 @@
+2/27/2023;Sporting Kansas City;Juan Mosquera;6';https://youtu.be/uW2MfZTWJYk
+3/11/2023;St. Louis City SC;Zac McGraw;3';https://youtu.be/T1dVdbUBHd4
+4/15/2023;Seattle Sounders FC;Jaroslaw Niezgoda;81';https://youtu.be/nakY9XIa_2g
+4/15/2023;Seattle Sounders FC;Nathan Fogaça;76';https://youtu.be/rJ-c1xPLAuM
+4/15/2023;Seattle Sounders FC;Juan Mosquera;89';https://youtu.be/C88fIVAqf1A
+4/15/2023;Seattle Sounders FC;Dairon Asprilla;71';https://youtu.be/e2iCI3nc8Jg
+5/6/2023;Austin FC;Claudio Bravo;71';https://youtu.be/HraFFdiF4gE
+5/6/2023;Austin FC;Dario Zuparic;33';https://youtu.be/me-Vxd9-bMI
+5/13/2023;Vancouver Whitecaps FC;Evander;54';https://youtu.be/9hsBvHzP-t8
+5/13/2023;Vancouver Whitecaps FC;Evander;18';https://youtu.be/wZzOlCmyUHs
+5/13/2023;Vancouver Whitecaps FC;Franck Boli;2';https://youtu.be/sfU-_xJsQpM
+6/11/2023;FC Dallas;Franck Boli;35';https://youtu.be/ObUhR7WrGE0
+6/21/2023;Chicago Fire FC;Franck Boli;26';https://youtu.be/12PkXmfSyBY
+6/24/2023;NYCFC;Evander;38';https://youtu.be/UshQbu_jIbE
+7/15/2023;Columbus Crew;Sebastián Blanco;80';https://youtu.be/o9dLLQ0E014
+7/15/2023;Columbus Crew;Dairon Asprilla;28';https://youtu.be/BbXvE4-Axn8
+7/15/2023;Columbus Crew;Dairon Asprilla;30';https://youtu.be/sWrGbYvL5Xc
+8/26/2023;Vancouver Whitecaps FC;Felipe Mora;53';https://youtu.be/nbLXindXxXk
+8/26/2023;Vancouver Whitecaps FC;Evander;85';https://youtu.be/zyNBz4Kt5VY
+8/30/2023;Real Salt Lake;Felipe Mora;64';https://youtu.be/Oxe11UWCEpk
+8/30/2023;Real Salt Lake;Santiago Moreno;13';https://youtu.be/uqMa3AEJgg4
+9/9/2023;LAFC;Larrys Mabiala;28';https://youtu.be/g5ErvGColMg
+9/9/2023;LAFC;Claudio Bravo;53';https://youtu.be/k44STgHYKFg
+9/20/2023;San Jose Earthquakes;Cristhian Paredes;45+3';https://youtu.be/MwEZCaTzLhM
+9/20/2023;San Jose Earthquakes;Evander;58';https://youtu.be/MOg49kWjagk
+9/23/2023;Colorado Rapids;Felipe Mora;71';https://youtu.be/IboTN9JmIs4
+9/23/2023;Colorado Rapids;Santiago Moreno;30';https://youtu.be/vIaqIVRkMT4
+9/23/2023;Colorado Rapids;Antony;19';https://youtu.be/fXywvRD_dZE
+10/21/2023;Houston Dynamo FC;Felipe Mora;80';https://youtu.be/N7KySBRkJa4
+2/24/2024;Colorado Rapids;Antony;29';https://youtu.be/59iNrDgbfEU
+2/24/2024;Colorado Rapids;Eryk Williamson;9';https://youtu.be/aMEWMD4hi7A
+2/24/2024;Colorado Rapids;Antony;14';https://youtu.be/a4Md3T6Hpuk
+2/24/2024;Colorado Rapids;Antony (OG);49';https://youtu.be/GPj9h7os0k
+3/2/2024;D.C. United;Santiago Moreno;61';https://youtu.be/XEeofkGgcGM
+3/2/2024;D.C. United;Dairon Asprilla;18';https://youtu.be/E2diiKyE33o
+3/23/2024;Philadelphia Union;Jonathan Rodriguez;80';https://youtu.be/oslWlcmeW34
+4/13/2024;LAFC;Felipe Mora;11';https://youtu.be/V2xHroTXJXY
+4/13/2024;LAFC;Evander;34';https://youtu.be/imc5xDGaTGg
+5/12/2024;Seattle Sounders FC;Felipe Mora;15';https://youtu.be/SBW0TRwLGfQ
+5/15/2024;San Jose Earthquakes;Jonathan Rodriguez;80';https://youtu.be/FECT9wXfuEU
+5/15/2024;San Jose Earthquakes;Evander;74';https://youtu.be/7qHbG_u7IEs
+5/15/2024;San Jose Earthquakes;Felipe Mora;90';https://youtu.be/8K9yQMe0xGo
+5/15/2024;San Jose Earthquakes;Jonathan Rodriguez;90'+10';https://youtu.be/O1L0S3gaJ98
+5/25/2024;Sporting Kansas City;Felipe Mora;51';https://youtu.be/h4rNsBJ9iGw
+5/25/2024;Sporting Kansas City;Evander;79';https://youtu.be/wN0a8DFkJf0
+6/1/2024;Houston Dynamo FC;Nathan Fogaça;76';https://youtu.be/U7dB7MkRZPk
+6/1/2024;Houston Dynamo FC;Felipe Mora;37';https://youtu.be/z4y2yVct05I
+6/22/2024;Vancouver Whitecaps FC;Jonathan Rodriguez;26';https://youtu.be/K4Ktz0b9v9g
+6/22/2024;Vancouver Whitecaps FC;Felipe Mora;43';https://youtu.be/7dNfkXFeryA
+6/29/2024;Minnesota United FC;Evander;45'+8';https://youtu.be/wux1hjgKZb0
+6/29/2024;Minnesota United FC;Santiago Moreno;73';https://youtu.be/00ZS952GVqI
+6/29/2024;Minnesota United FC;Jonathan Rodriguez;90'+2';https://youtu.be/ZweBJdCilLQ
+7/7/2024;Nashville SC;Jonathan Rodriguez;24';https://youtu.be/OQ2_9tQHfKs
+7/7/2024;Nashville SC;Felipe Mora;18';https://youtu.be/KC9fsy54il8
+7/7/2024;Nashville SC;Jonathan Rodriguez;21';https://youtu.be/hBQYA7gyHgw
+7/7/2024;Nashville SC;Eryk Williamson;29';https://youtu.be/-1ibW09OUWc
+7/13/2024;Real Salt Lake;Felipe Mora;3';https://youtu.be/bsgMUc6n30Q
+7/13/2024;Real Salt Lake;Santiago Moreno;48';https://youtu.be/nAluPMIWLAw
+7/13/2024;Real Salt Lake;Evander;90';https://youtu.be/f8a7ZjflK58
+7/28/2024;Club Leon;Zac McGraw;41';https://youtu.be/VaY4A6Y6JwU
+7/28/2024;Club Leon;Zac McGraw;90';https://youtu.be/zY9Vl5oxSHI
+8/1/2024;Colorado Rapids;Santiago Moreno;71';https://youtu.be/LSh-1-Ty93s
+8/1/2024;Colorado Rapids;Antony;30';https://youtu.be/g9XeAZHdK5o
+8/1/2024;Colorado Rapids;Mason Toye;69';https://youtu.be/0YxUbLWl9ag
+8/1/2024;Colorado Rapids;David Ayala;52';https://youtu.be/UmQJdSWRYS4
+8/24/2024;St. Louis City SC;Felipe Mora;64';https://youtu.be/VrBSLwSeB6g
+8/24/2024;St. Louis City SC;Evander;90'+9';https://youtu.be/gTX-d8C3zLA
+8/24/2024;St. Louis City SC;Jonathan Rodriguez;39';https://youtu.be/a2b8p2cjgrQ
+8/24/2024;St. Louis City SC;Felipe Mora;57';https://youtu.be/gB_zhkU8yME
+8/31/2024;Seattle Sounders FC;Juan Mosquera;55';https://youtu.be/Rpiv3jNasJ0
+9/18/2024;LA Galaxy;Evander;51';https://youtu.be/6AngC38LpwY
+9/18/2024;LA Galaxy;Felipe Mora;80';https://youtu.be/Pq0ypy5-iJU
+9/18/2024;LA Galaxy;Jonathan Rodriguez;17';https://youtu.be/UdkZqhsPRWI
+9/18/2024;LA Galaxy;Evander;39';https://youtu.be/DS9mI7tjJn4

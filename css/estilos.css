@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+    color: black;
+}
+
+h2,
+p,
+a,
+span {
+    color: white;
+}
+
+div.search {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 2rem 0;
+}
+
+input.filterGoals {
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+div.matchesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px; /* Adjust this value based on the height of div.search */
+}
+
+a.matchup {
+    background-color: #004812;
+
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+div.equipos {
+    display: flex;
+    align-items: center;
+}
+
+div.equipos>img {
+    width: 80px;
+    height: 80px;
+}
+
+p.viewGoalText {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+span.vsText {
+    padding: 0 1rem;
+}
