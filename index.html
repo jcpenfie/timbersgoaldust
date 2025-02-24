@@ -40,13 +40,14 @@
                 const matchesContainer = document.getElementById('matchesContainer');
                 const goalDiv = document.createElement('div');
                 goalDiv.classList.add('matchup');
+                goalDiv.dataset.videoId = gol.videoId;
                 goalDiv.innerHTML = `
                     <div class="equipos">
                         <img src="imagenes/logos/POR.svg" alt="Portland Timbers">
                         <span class="vsText">vs</span>
                         <img src="${getTeamLogo(equipos, gol.AgainstTeam)}" alt="${gol.AgainstTeam}">
                     </div>
-                    <div class="video-placeholder" data-video-id="${gol.video}">
+                    <div class="video-placeholder">
                         <p class="viewGoalText">Click to view goal</p>
                         </div>
                     <h2>${gol.goalDate}</h2>
